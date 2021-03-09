@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root1234
     username: root
-    url: 'jdbc:mysql://localhost:3306/fornecedor-paper'
+    url: 'jdbc:mysql://localhost:3306/fornecedor-paper?useTimezone=true&serverTimezone=UTC'
   jpa:
     hibernate:
       ddl-auto: update
